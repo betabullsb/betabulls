@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Dashboard</title>
+<title>Report On Below 9 Hours</title>
  
    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -46,50 +46,50 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#"></a>
+                    <a class="navbar-brand" href="#"><!--div class="logo">
+				<img src="images/betabulls.png" class="img-responsive"/>
+				</div--></a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="dashboard.html" class="">Dashboard</a>
-						 </li>
-						
-						
-						
-						<li class=" dropdown"><a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Employees <span class="caret"></span></a>
+                        <li class="active"><a href="dashboard.html" class="">Dashboard</a></li>
+                        <li class=" dropdown">
+                            <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Employees <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="add-employees.html"> Add Employee</a></li>
+                                <li>
+                                    <a href="add-employees.html">Add Employee</a>
+                                </li>
                                 <li><a href="manage-employee.html">Manage Employee</a></li>
-								<li><a href="list-employee.html">List Of Employee</a></li>
+								<li><a href="list-employee.html">List Employee</a></li>
                             </ul>
                         </li>
-						
-						
-						
-						
                         
-                        
-                       
-                        <li class=" dropdown"><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Leaves <span class="caret"></span></a>
+						
+						
+						
+						<li class=" dropdown"><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Leaves <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="add-leaves.html">Add Leaves</a></li>
-                                <li><a href="manage-leaves.html">Manage Leaves</a></li>
-                                <li><a href="list-leave.html">List Leave Position</a></li>
+                                <li><a href="manage-levaes.html">Manage Leaves</a></li>
+								 <li><a href="list-leave.html">List Leave Position</a></li>
                             </ul>
                         </li>
 						
-						 <li class=" dropdown"><a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">TimeSheet <span class="caret"></span></a>
+						
+						
+                        <li class=" dropdown"><a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">TimeSheet <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="add-timesheet.html"> Add Attendance</a></li>
                                 <li><a href="manage-attendance.html">Manage Attendance</a></li>
 								<li><a href="list-attendance.html">List Attendance</a></li>
                             </ul>
                         </li>
-						
-                        <li class=" down"><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Report<span class="caret"></span></a>
+                        
+                        <li class=" down"><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Report <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="extra-leaves.html">Extra Leaves Taken</a></li>
+                               <li><a href="extra-leaves.html">Extra Leaves Taken</a></li>
                                 <li><a href="report-on-absentees.html">Report On Absentees</a></li>
-								<li><a href="report-on-below9.html">Repor On Below 9Hours</a></li>
+								<li><a href="report-on-below9.html">Report On Below 9Hours</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -121,63 +121,132 @@
 
 
 
+<div class="form addemployee col-sm-offset-3 col-sm-8" >
+<form class="form-horizontal" role="form">
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="employeeid">Enter Year</label>
+    <div class="col-sm-10">
+      <input type="year" class="form-control" id="year" placeholder="Enter year">
+    </div>
+  </div>
+  
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="employeeid">Enter Month</label>
+    <div class="col-sm-10">
+      <input type="month" class="form-control" id="year" placeholder="Enter month">
+    </div>
+  </div>
+   
+  <table class="table table-bordered">
+    <thead>
+  <tr>
+        <th>S.no</th>
+        
+        <th>Employee ID</th>
+		<th>Total Days</th>
+        <th>Working Days</th>
+        <th>Total Hours</th>
+		<th>Average Hours</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        
+        <td></td>
+        <td></td>
+		<td></td>       
+	    <td></td>
+        <td></td>
+        <td></td>
+      </tr>
 
-
-
-
-
-	<div class="container">
-		<div class="row">
-		
-			<div class="col-md-4">
-				<div id="col">
-				    <div class="maingrid">Attendence</div>
-                       <div class="subgrid">Max</div>
-					   <span style="width: 100%;" class="progress-bar progress-bar-success green-sharp">
-                            <span class="sr-only">0% progress</span>
-                        </span>
-					      <div class="subgrid1">Average Hours</div>
-                           <div class="subgrid2">Min</div>
-				</div>
-		     </div>
-				        <div class="col-md-4">
-					        <div id="col">
-							    <div class="leaves1">Leaves </div>
-                                     <div class="leaves2">Max</div>
-									 <span style="width: 100%;" class="progress-bar progress-bar-success green-sharp">
-                            <span class="sr-only">0% progress</span>
-                        </span>
-                                          <div class="leaves3">Average Hours</div>
-                                                   <div class="leaves4">Min</div>
-			                </div>
-							</div>
-							
-					<div class="col-md-4">
-						<div id="col">
-						<div class="leaves1">Employees</div></br>
-						<span style="width: 100%;" class="progress-bar progress-bar-success green-sharp">
-                            <span class="sr-only">0% progress</span>
-                        </span> </br>
-						        
-								 <ul>
-								 <div class="emp2"> <li>Total Employees</li></div>
-								  <div class="emp3"><li>Extra Leaves Taken</li></div>
-								 <div class="emp4"> <li>Total Absentees</li></div>
-								 <div class="emp5"> <li>Below 9Hour</li></div>
-								</ul>
-								  
-						</div>
-					</div>
-		</div>
-	</div>
-
-	<div class="footer-head1">
+	   <tr>
+        
+        <td></td>
+        <td></td>
+		<td></td>
+        <td></td>
+        <td></td>
+		<td></td>
+      </tr>
+	   <tr>
+       
+        <td></td>
+        <td></td>
+		<td></td>
+        <td></td>
+        <td></td>
+		<td></td>
+      </tr>
+	   <tr>
+        
+        <td></td>
+        <td></td>
+		<td></td>
+        <td></td>
+        <td></td>
+		<td></td>
+      </tr>
+	   <tr>
+        
+        <td></td>
+        <td></td>
+		<td></td>
+        <td></td>
+        <td></td>
+		<td></td>
+      </tr>
+	   <tr>
+        
+        <td></td>
+        <td></td>
+		<td></td>
+        <td></td>
+        <td></td>
+		<td></td>
+      </tr>
+	   <tr>
+        
+        <td></td>
+        <td></td>
+		<td></td>
+        <td></td>
+        <td></td>
+		<td></td>
+      </tr>
+	   <tr>
+        
+        <td></td>
+        <td></td>
+		<td></td>
+        <td></td>
+        <td></td>
+		<td></td>
+      </tr>
+	   <tr>
+        
+        <td></td>
+        <td></td>
+		<td></td>
+        <td></td>
+        <td></td>
+		<td></td>
+      </tr>
+	   
+    </tbody>
+  </table>
+  <div class="butt">
+   <button type="submit" class="btn btn-INFO" style="margin-right:200px;margin-top:10px;"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> PDF</button>  
+   </div>
+  <div class="butt1">
+   <button type="submit" class="btn btn-success" style="margin-left:180px;margin-top:10px;"><i class="glyphicon glyphicon-ok" aria-hidden="true"> OK</i></button>  
+   </div>
+   </div>
+</form>
+</div>
+<div class="footer-head6">
 	<p>&#169; 2014 BetaBulls *  Privacy Policy</p>
 </div>
-
-	
-		
-	
-	
 </body>
 </html>

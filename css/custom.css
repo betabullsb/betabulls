@@ -45,7 +45,7 @@ body, html {
 
 
 .profile-name-card {
-    font-size: 16px;
+    font-size: 13px;
     font-weight: bold;
     text-align: center;
     margin: 10px 0 0;
@@ -57,7 +57,7 @@ body, html {
     color: #404040;
     line-height: 2;
     margin-bottom: 10px;
-    font-size: 14px;
+    font-size: 13px;
     text-align: center;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -101,7 +101,7 @@ body, html {
     /* background-color: linear-gradient(rgb(104, 145, 162), rgb(12, 97, 33));*/
     padding: 0px;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 13px;
     height: 36px;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
@@ -288,9 +288,325 @@ a.socialIcon:hover, .socialHoverClass {
 }
 .profileicon-border:hover{ border-bottom: none !important;}
 /*Dashboard end css*/
-/*grids*/
-#col{height:200px;background-color:#fff;margin-top:20px;
+
+
+/*grids data in dashboard */
+#col{height:250px;background-color:#f5f5f5;margin-top:20px;
 border-radius:10px;}
 
-.footer-head {background-color:#000;}
+.maingrid{float:left;padding-left:20px;margin-top:19px;}
+.subgrid {
+    float: right;
+    padding-right: 50px;
+    margin-top: 19px;
+}
+
+.subgrid1{float:left;margin-top:60px;padding-left:10px; }
+
+
+
+  
+  
+  
+  
+  .subgrid2 {
+    float: left;
+    margin-left: 180px;
+    margin-top: 148px;
+    padding-right: 10px;
+}
+
+.leaves1{float:left;padding-left:20px;margin-top:19px;}
+ .leaves2{float:right;padding-right:48px;margin-top:19px;}
+.leaves3{float:right;margin-top:65px;padding-right:253;}
+
+.leaves4 {
+    float: left;
+    margin-left: 287px;
+    margin-top: 60px;
+}
+
+
+
+emp1 {
+   
+    margin-top: 13px;
+}
+
+
+.emp1{
+    margin-top: 20px;}
+.emp2 {
+    
+    margin-top: 20px;
+}
+
+.emp3{
+    margin-top: 20px;}
+.emp4{
+    margin-top: 20px;}
+
+
+.emp5{
+    margin-top: 20px;}
+
+
+
+
+
+
+
+
+
+.form {max-width:550px;
+padding:30px 30px ;
+background-color:white;border:10px;border-radius:10px;
+align:right;}
+
+
+
+
+
+/*add-employees*/
+.form {max-width:700px;
+padding:35px 30px 20px 30px ;
+background-color:#f5f5f5;border:10px;border-radius:10px;
+align:left;}
+.addemployee{float:center; margin-top:23px;}
+.fdown{background-color:black;height:80px;margin-top:200px;}
+.fdown p     {text-align: center;
+    color: #fff;
+padding: 32px 0px;}
+
+
+#r1 {
+   border-top-width:100px;
+    border-bottom-style: solid;
+   
+    border-bottom-color: green;
+    
+}
+
+
+
+
+
+/*list-employee button css*/
+.butt{float:right;
+margin-left:100px;}
+
+
+/*add-employee*/
+.footer-head {background-color:#000;height:70px; margin-top:635px;}
 .footer-head  p{text-align:center;padding:20px 0px;color:#fff}
+/*manage-employee*/
+.footer-head8{background-color:#000;height:70px; margin-top:645px;}
+.footer-head8  p{text-align:center;padding:20px 0px;color:#fff}
+
+/*dashboard footer*/
+.footer-head1 {background-color:#000;height:110px; margin-top:200px;}
+.footer-head1  p{text-align:center;padding:20px 0px;color:#fff}
+
+
+/*ADD-LEAVES FOOTER*/
+
+.footer-head2 {background-color:#000;height:80px; margin-top:450px;}
+.footer-head2  p{text-align:center;padding:20px 0px;color:#fff}
+
+/*css for footer in list employee*/
+.footer-head3 {background-color:#000;height:80px; margin-top:520px;}
+.footer-head3  p{text-align:center;padding:20px 0px;color:#fff}
+
+
+
+
+/*css for footer in MANAGE-LEAVES*/
+.footer-head4 {background-color:#000;height:80px; margin-top:500px;}
+.footer-head4 p{text-align:center;padding:20px 0px;color:#fff}
+
+/*css for footer in MANAGE-LEAVES*/
+.footer-head5 {background-color:#000;height:80px; margin-top:450px;}
+.footer-head5 p{text-align:center;padding:20px 0px;color:#fff}
+
+/*css for footer in EXTRA-LEAVES*/
+.footer-head6 {background-color:#000;height:80px; margin-top:600px;}
+.footer-head6 p{text-align:center;padding:20px 0px;color:#fff}
+
+
+
+
+/*css for footer in EXTRA-LEAVES*/
+.footer-head7 {background-color:#000;height:80px; margin-top:600px;}
+.footer-head7 p{text-align:center;padding:20px 0px;color:#fff}
+
+
+
+
+
+/*grids css  for bar*/
+
+.progress-bar {
+    float: left;
+    width: 0;
+    height: 2%;
+    font-size: 12px;
+    line-height: 20px;
+    color: #bdc1c3;
+    text-align: center;
+    background-color: #bdc1c3;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+    -webkit-transition: width .6s ease;
+    -o-transition: width .6s ease;
+    transition: width .6s ease;
+}
+
+
+
+
+
+ul {
+    list-style: none; / Remove list bullets /
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding-left: 0px;
+}
+
+li:before {
+    / Insert content that looks like bullets /
+    padding-right: 0px;
+    color: blue; / Or a color you prefer /
+}
+
+
+/*/*change passward page grid*/
+#column{height:450px;background-color:#f5f5f5;margin-top:20px;
+border-radius:10px;}
+
+
+
+.progress-bar1 {
+    float: left;
+    width: 0;
+    height: 1%;
+    font-size: 12px;
+    line-height: 20px;
+    color: #eee;
+    text-align: center;
+    background-color: #eee;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+    -webkit-transition: width .6s ease;
+    -o-transition: width .6s ease;
+    transition: width .6s ease;
+}
+
+
+/* css for changepassword page
+
+.form-control {
+    margin-top: 50;
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: ;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+
+
+.col-md-6 {
+    width: 48%;
+}
+
+.col-md-5 {
+    width: 39.666667%;
+	margin-top: 55px;
+	float: left;
+    margin-right: -123px;
+	position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+
+
+/*css for change passwrrd  and cancel button
+button, html input[type=button], input[type=reset], input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+	margin-top:50px;
+}
+
+.btn.default {
+    color: #333333;
+    background-color: #E5E5E5;
+    border-color: "grey";
+	margin-top:50px;
+}
+#pswd{float:left;padding-left:20px;margin-top:19px;}*/
+
+.col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+    float: left;
+    margin-top: 25;
+}
+
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+    /* -webkit-appearance: button; */
+    cursor: pointer;
+    margin-top: 10;
+}
+
+
+
+.btn.default {
+    color: #333333;
+    background-color: #E5E5E5;
+    border-color: "#f5f5f5";
+	margin-top:30px;
+}
+
+
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+	margin-top:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
