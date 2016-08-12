@@ -72,22 +72,23 @@
                             <ul class="dropdown-menu">
                                 <li><a href="addleaves.html">Add Leaves</a></li>
                                 <li><a href="manageleaves.html">Manage Leaves</a></li>
-								  <li><a href="listleaveposition.html">List Leave Position</a></li>
+								 <li><a href="listleaveposition.html">List Leave Position</a></li>
                             </ul>
                         </li>
                         <li class=" dropdown"><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Time Sheet<span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="addattendence.html">Add Attendence</a></li>
                                 <li><a href="manageattendence.html">Manage Attendence</a></li>
-                                <li><a href="listattendence.html">List Attendence</a></li>
+								 <li><a href="listattendence.html">List Attendence</a></li>
+                                <!--li><a href="#">Bulk Upload</a></li-->
                             </ul>
                         </li>
                         <li class=" down"><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Reports<span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="extraleaves.html">Extra Leaves Taken</a></li>
                                 
-								<li><a href="reportonbelow9hrs.html">Report on Absentees</a></li>
-								<li><a href="reportonabsentees.html">Report on Below 9Hours</a></li>
+								<li><a href="reportonabsentees.html">Report on Absentees</a></li>
+								<li><a href="reportonbelow9hrs.html">Report on Below 9Hours</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -96,8 +97,8 @@
                         <li class=" dropdown"><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Signed in as  <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="#">Change Password</a></li>
-                                
-								<li><a href="profileinformation.html">My profile</a></li>
+                                <li><a href="#">My Profile</a></li>
+								
 								<li><a href="index.html">Logout</a></li>
                             </ul>
                         </li>
@@ -109,55 +110,60 @@
     </div>
 </div>
 </div>
+<div class="form addemployee col-sm-offset-3 col-sm-8" >
+<form class="form-horizontal" role="form">
+  <div class="form-group">
+    <label class="control-label col-sm-3" for="year">select year</label>
+    <div class="col-sm-9">
+      <input type="text" class="form-control" id="year" placeholder="select year">
+    </div>
+  </div>
+  
+    <div class="form-group">
+    <label class="control-label col-sm-3" for="leaves">previlleged Leaves</label>	
 
-<div class="container">
-		<div class="row">
-		
-			<div class="col-md-4">
-				<div id="col">
-				    <div class="maingrid">Attendence</div>
-                       <div class="subgrid">Max</div>
-					   <span style="width: 100%;" class="progress-bar progress-bar-success green-sharp">
-                            <span class="sr-only">0% progress</span>
-                        </span>
-					      <div class="subgrid1">Average Hours</div>
-                           <div class="subgrid2">Min</div>
-				</div>
-		     </div>
-				        <div class="col-md-4">
-					        <div id="col">
-							    <div class="leaves1">Leaves </div>
-                                     <div class="leaves2">Max</div>
-									 <span style="width: 100%;" class="progress-bar progress-bar-success green-sharp">
-                            <span class="sr-only">0% progress</span>
-                        </span>
-                                          <div class="leaves3">Average Hours</div>
-                                                   <div class="leaves4">Min</div>
-			                </div>
-							</div>
-							
-					<div class="col-md-4">
-						<div id="col">
-						<div class="leaves1">Employees</div></br>
-						<span style="width: 100%;" class="progress-bar progress-bar-success green-sharp">
-                            <span class="sr-only">0% progress</span>
-                        </span> </br>
-						        
-								 <ul>
-								 <div class="emp2"> <li>Total Employees</li></div>
-								  <div class="emp3"><li>Extra Leaves Taken</li></div>
-								 <div class="emp4"> <li>Total Absentees</li></div>
-								 <div class="emp5"> <li>Below 9Hour</li></div>
-								</ul>
-								  
-						</div>
-					</div>
-		</div>
-	</div>
+    <div class="col-sm-9">
+      <input type="text" class="form-control" id="leaves" placeholder="previlleged leaves">
+    </div>
+  </div>
+  
+    <div class="form-group">
+    <label class="control-label col-sm-3" for="sick">sick Leaves</label>
+    <div class="col-sm-9">
+      <input type="text" class="form-control" id="sick" placeholder="sick leaves:">
+    </div>
+  </div>
+  
+  
+  
+  
+    <div class="form-group">
+    <label class="control-label col-sm-3" for="leaves">Casual Leaves</label>
+    <div class="col-sm-9">
+      <input type="text" class="form-control" id="casual" placeholder="Casual Leaves">
+    </div>
+  </div>
+    <div class="form-group">
+    <label class="control-label col-sm-3" for="total">Total</label>
+    <div class="col-sm-9">
+      <input type="text" class="form-control" id="total" placeholder="Total">
+    </div>
+  </div>
+   <div class="form-group"> 
+    <div class="col-sm-offset-3 col-sm-9">
+      <div class="butt"><button type="submit" class="btn btn-success">Save</button></div>
+</div>
+</div>
+  
+  
+</div>
+</form>
 
-<div class="fdown">
+
+
+
+<div class="fdown3">
 	<p>&#169; 2014 BetaBulls *  Privacy Policy</p>
-<div>
-
+</div>  
 </body>
 </html>
